@@ -1,5 +1,8 @@
 # LSEG-task2
 
+**To avoid errors, you need to add the path to the libraries from folder "libraries" in each project. 
+Task 2:  add jsoup-1.15.3.jar**
+
 1.  We get download link to xsl file via Jsoup library.
 Element link = doc.select("a[href*=/pubweb/]").first();
 We have also absolute href to file.
